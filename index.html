@@ -5,19 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Satu Rumah KPU Bolmut</title>
   
-  <link rel="icon" type="image/png" href="https://kpukabbolmut.github.io/Satu_Rumah/logo.png">
-  <link rel="apple-touch-icon" href="https://kpukabbolmut.github.io/Satu_Rumah/logo.png">
-  <link rel="shortcut icon" type="image/png" href="https://kpukabbolmut.github.io/Satu_Rumah/logo.png">
-  
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/4/46/KPU_Logo.svg" type="image/svg+xml">
+
   <style>
+    /* Menghilangkan semua margin agar aplikasi memenuhi layar */
     body, html {
       margin: 0;
       padding: 0;
       width: 100%;
       height: 100%;
       overflow: hidden;
-      background-color: #0f172a;
+      background-color: #0f172a; /* Warna gelap saat memuat */
     }
+    
+    /* Bingkai Utama yang Menghubungkan ke Google Script */
     .app-frame {
       width: 100%;
       height: 100%;
@@ -27,6 +28,8 @@
       left: 0;
       z-index: 10;
     }
+
+    /* Layar Loading Estetik */
     .loading-screen {
       position: absolute;
       top: 0;
@@ -55,14 +58,15 @@
 
   <div class="loading-screen">
     <div class="loader"></div>
-    <div class="text">MENYAMBUNGKAN KE PORTAL...</div>
+    <div class="text">MENYAMBUNGKAN KE SATU RUMAH...</div>
   </div>
 
   <iframe 
-  class="app-frame" 
-  src="https://script.google.com/macros/s/AKfycbwwTLa3gmOHYSOLupJ76UfJQYYpudmcdd_UXhwqeFoZXM1rhvHF01M0GN6mSJbMuJbr/exec?authuser=0" 
-  allow="camera; microphone; fullscreen" 
-  allowfullscreen>
-</iframe>
+    class="app-frame" 
+    src="MASUKKAN_LINK_EXEC_SATU_RUMAH_ANDA_DI_SINI" 
+    allow="camera; microphone; fullscreen" 
+    allowfullscreen>
+  </iframe>
+
 </body>
 </html>
